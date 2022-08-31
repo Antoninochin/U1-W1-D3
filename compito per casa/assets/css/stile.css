@@ -12,11 +12,11 @@ main{
 }
 /* HEADER */
 header{
+    border-bottom: 10px darkblue solid;
     background-color: rgb(60, 185, 234);
-    line-height: 3.5;
+    line-height:2;
 }
 span{
-    display: block;
     background-color: white ;
     color: rgb(60, 185, 234);
 }
@@ -25,6 +25,14 @@ h1{
 }
 
 /* MAIN */
+ul{
+    padding: 30px;
+    margin: auto;
+
+}
+.corsivo{
+    font-style: italic;
+}
 h2:nth-of-type(1){
     color: blue;
     margin: 3%;
@@ -45,6 +53,7 @@ table{
 
 /* FOOTER */
 footer {
+    border-top: 0%;
     display: block;
     color: white;
     background-color: black;
